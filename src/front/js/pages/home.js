@@ -7,8 +7,18 @@ export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5 box-container-home">
-			
+		<div className="big-one-container">
+			<div className="contiainer text-center box-container-header">
+				<div className="content-box">
+					<div className="col-12">
+						<h1 className="display-4">Bienvenido a Cafe Canaima</h1>
+						<p className="lead">
+							Descubre nuestros deliciosos productos y disfruta de un café excepcional en un ambiente acogedor.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
+
